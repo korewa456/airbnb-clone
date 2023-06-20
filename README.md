@@ -1,30 +1,24 @@
-# Sorting Visualizer
+# Airbnb Clone
 
-This is a web application that visualizes various sorting algorithms in action. The project is written in React and deployed to Firebase. You can see the deployed project here: https://sorting-visualizer-71b82.web.app/.
+This is a clone of Airbnb, a popular online marketplace for booking accommodations. It aims to replicate some of the core features and functionalities of the original platform. This project was developed as a learning exercise and does not have any affiliation with Airbnb.
 
-<img width="500" src="https://im3.ezgif.com/tmp/ezgif-3-6a54d55a03.gif" alt="clone this repository" />
+The project is deployed to Vercel. You can see the deployed project [here](https://rent-clone-navy.vercel.app/).
 
-# Usage
+<img width="800" src="https://i.gyazo.com/a2a8de0e5db4436129db4a2bf9a6f53f.png" alt="clone this repository" />
 
-To use the sorting visualizer, simply go to the deployed project URL. The app will automatically load and show you a visualization of the default sorting algorithm (merge sort). You can choose to visualize any of the following sorting algorithms:
+## Features
 
-- Merge sort
-- Quick sort
-- Bubble sort
-- Selection sort
-- Insertion sort
+- User registration and authentication
+- Listing properties for rent
+- Searching and filtering properties by location, dates, and other criteria
+- Booking properties and managing reservations
 
-To visualize a different sorting algorithm, simply select it from the drop-down menu and click the "Generate New Array" button. The app will generate a new array of random numbers and show you a visualization of the selected sorting algorithm sorting the array.
+## Features
 
-# Development
+- Front-end: HTML, CSS, JavaScript, Next.js
+- Back-end: Node.js, Prisma, MongoDB
+- Additional Tools:  Axios (HTTP requests), NextAuth (authentication)
 
-To run the sorting visualizer locally, follow these steps:
+## Disclaimer
 
-1. Clone the repository: git clone https://github.com/<your-username>/sorting-visualizer.git
-2. Install dependencies: npm install
-3. Start the development server: npm start
-4. The app should now be running on http://localhost:3000/. You can make changes to the code and see them reflected in the app.
-
-# Credits
-
-This project was created by Korewa456 👍.
+This project is a clone of Airbnb and is intended for educational purposes only. It should not be used for commercial purposes or deployed as a production application.
